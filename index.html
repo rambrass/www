@@ -1,1 +1,315 @@
+<!DOCTYPE html>
+<html lang="en-ZA">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Rambrass International | Hard Work, Hard to Beat</title>
+
+  <!-- SEO -->
+  <meta name="description" content="Rambrass International delivers trusted playgrounds, outdoor fitness, landscaping, structural steel, civils, renovations, and safety solutions across Africa, the United States, and beyond." />
+  <meta name="keywords" content="Rambrass International, structural steel, playgrounds, landscaping, construction, civils, outdoor fitness, Africa construction, USA construction" />
+  <meta name="author" content="Rambrass International" />
+  <link rel="canonical" href="https://rambrass.co.za/" />
+
+  <!-- Social -->
+  <meta property="og:title" content="Rambrass International | Hard Work, Hard to Beat" />
+  <meta property="og:description" content="Building trusted infrastructure and community spaces since 2000." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://rambrass.co.za/" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+  <style>
+    :root {
+      --primary: #1f2933;
+      --accent: #b38b2e;
+      --bg: #f9fafb;
+      --text: #1f2933;
+      --muted: #6b7280;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      color: var(--text);
+      background: var(--bg);
+      line-height: 1.6;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .skip-link {
+      position: absolute;
+      top: -40px;
+      left: 0;
+      background: #000;
+      color: #fff;
+      padding: 8px 16px;
+      z-index: 100;
+    }
+
+    .skip-link:focus {
+      top: 0;
+    }
+
+    header {
+      position: sticky;
+      top: 0;
+      background: #fff;
+      border-bottom: 1px solid #e5e7eb;
+      z-index: 10;
+    }
+
+    .nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1rem 1.25rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 1.25rem;
+      font-weight: 500;
+    }
+
+    .nav-social a {
+      margin-left: 0.75rem;
+      color: var(--muted);
+    }
+
+    main {
+      max-width: 1200px;
+      margin: auto;
+      padding: 2rem 1.25rem;
+    }
+
+    .hero {
+      padding: 3rem 0;
+    }
+
+    .hero h1 {
+      font-size: clamp(2rem, 4vw, 3rem);
+      margin-bottom: 1rem;
+    }
+
+    .hero p {
+      max-width: 720px;
+      color: var(--muted);
+    }
+
+    .cta {
+      display: inline-block;
+      margin-top: 1.5rem;
+      background: var(--accent);
+      color: #fff;
+      padding: 0.75rem 1.5rem;
+      border-radius: 4px;
+      font-weight: 600;
+    }
+
+    .rating {
+      margin-top: 1rem;
+      font-weight: 600;
+      color: #16a34a;
+    }
+
+    section {
+      margin-top: 4rem;
+    }
+
+    h2 {
+      font-size: 1.75rem;
+      margin-bottom: 1rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .card {
+      background: #fff;
+      padding: 1.5rem;
+      border-radius: 6px;
+      border: 1px solid #e5e7eb;
+    }
+
+    .metrics span {
+      display: block;
+      font-weight: 700;
+      font-size: 1.25rem;
+      color: var(--accent);
+    }
+
+    .testimonial {
+      font-style: italic;
+    }
+
+    .project img {
+      width: 100%;
+      border-radius: 4px;
+      margin-bottom: 0.75rem;
+    }
+
+    .newsletter input {
+      width: 100%;
+      padding: 0.75rem;
+      margin-top: 0.5rem;
+      border: 1px solid #d1d5db;
+      border-radius: 4px;
+    }
+
+    footer {
+      background: #111827;
+      color: #d1d5db;
+      padding: 3rem 1.25rem;
+      margin-top: 4rem;
+    }
+
+    footer a {
+      color: #d1d5db;
+      display: block;
+      margin: 0.25rem 0;
+    }
+
+    .footer-grid {
+      max-width: 1200px;
+      margin: auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 2rem;
+    }
+
+    .copyright {
+      text-align: center;
+      margin-top: 2rem;
+      font-size: 0.875rem;
+      color: #9ca3af;
+    }
+  </style>
+</head>
+
+<body>
+<a href="#content" class="skip-link">Skip to content</a>
+
+<header>
+  <nav class="nav">
+    <strong>Rambrass International</strong>
+    <div class="nav-links">
+      <a href="#">Home</a>
+      <a href="#">About Us</a>
+      <a href="#">Our Services</a>
+      <a href="#">Projects / News</a>
+      <a href="#">Contact Us</a>
+    </div>
+    <div class="nav-social">
+      <a href="#"><i class="bi bi-facebook"></i></a>
+      <a href="#"><i class="bi bi-linkedin"></i></a>
+    </div>
+  </nav>
+</header>
+
+<main id="content">
+
+  <section class="hero">
+    <h1>Hard Work, Hard to Beat.</h1>
+    <p>
+      Proudly delivering trusted playgrounds, outdoor fitness, landscaping,
+      structural steel, civils, renovations, quality control, quantity surveying,
+      and safety solutions that shape communities and infrastructure across Africa,
+      the United States, and beyond — building with integrity, precision, and lasting quality.
+    </p>
+    <a class="cta" href="#">Explore Our Services</a>
+    <div class="rating">Excellent ★★★★★ (5 Client Ratings)</div>
+  </section>
+
+  <section>
+    <h2>Who We Are</h2>
+    <p>
+      Founded in 2000, Rambrass International delivers expert solutions in construction,
+      landscaping, and safety — creating lasting impact across Africa, the United States,
+      and beyond.
+    </p>
+    <p><strong>Guided by Integrity, Driven by Excellence.</strong></p>
+  </section>
+
+  <section>
+    <h2>What We Offer</h2>
+    <div class="grid metrics">
+      <div class="card"><span>85%</span>Comprehensive Solutions</div>
+      <div class="card"><span>90%</span>Innovative Approach</div>
+      <div class="card"><span>75%</span>Client-Centric Focus</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Testimonials</h2>
+    <div class="grid">
+      <div class="card testimonial">“Great work & quality equipment!” — Dj Thuli Mthethwa</div>
+      <div class="card testimonial">“Impressive production line and caring attitude.” — Faruk Turkmen</div>
+      <div class="card testimonial">“Great service and excellent products.” — Professional Facilities Management CC</div>
+      <div class="card testimonial">“Great work ethics. Owner is genuine.” — Jan Van Der Merwe</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Our Works</h2>
+    <div class="card project">
+      <img src="https://via.placeholder.com/800x400" alt="Hillbrow Telkom Tower Project">
+      <strong>Hillbrow Telkom Tower</strong>
+      <p>Steel Fabrication Project delivering expert structural solutions.</p>
+      <small>November 18, 2025</small>
+    </div>
+  </section>
+
+  <section class="newsletter">
+    <h2>Newsletter</h2>
+    <p>Sign up to receive updates, insights, and news.</p>
+    <input type="email" placeholder="Enter your email" aria-label="Email address">
+  </section>
+
+</main>
+
+<footer>
+  <div class="footer-grid">
+    <div>
+      <h3>Services</h3>
+      <a>Steel Fabrications</a>
+      <a>Construction</a>
+      <a>Civils</a>
+      <a>Landscaping</a>
+      <a>Playground Architecture</a>
+      <a>Renovations</a>
+    </div>
+    <div>
+      <h3>Company</h3>
+      <a>About Us</a>
+      <a>News & Projects</a>
+      <a>Contact Us</a>
+    </div>
+  </div>
+  <div class="copyright">
+    © 2025 Rambrass International. All rights reserved.
+  </div>
+</footer>
+
+</body>
+</html>
 
